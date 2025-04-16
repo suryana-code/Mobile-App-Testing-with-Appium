@@ -1,0 +1,21 @@
+{
+  "name": "appium-swaglabs",
+  "version": "1.0.0",
+  "description": "Pengujian menggunakan APPIUM pada aplikasi Swaglabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "Suryana",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.17.0",
+    "chai": "^5.2.0",
+    "webdriverio": "^9.12.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.12.3",
+    "@wdio/cli": "^9.12.5"
+  }
+}
